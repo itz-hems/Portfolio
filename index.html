@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hemanath A.S — Full Stack Developer</title>
+<meta name="description" content="Hemanath A.S — Full Stack Developer portfolio. Projects, skills and certifications.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+<link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+<link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wire" aria-hidden="true"></div>
+
+<header>
+  <nav class="glass">
+    <a class="logo" href="#home">Hemanath<span class="dot">.</span>A S</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="btn btn-ghost nav-cv" id="navResumeBtn" href="assets/resume.pdf" download>Resume</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><i class='bx bx-menu'></i></button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HOME -->
+  <section id="home">
+    <div class="section-inner hero">
+      <div class="hero-text">
+        <p class="eyebrow">Welcome to my portfolio</p>
+        <h1>Hi, I'm Hemanath.<br>I build <span id="role" class="role-type"></span></h1>
+        <p class="lede">Full Stack Developer in training, based in Kanchipuram — I like taking a product from database schema to the pixels the user actually taps. Comfortable moving between Python/Django on the backend and JavaScript on the front.</p>
+        <div class="cta-row">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="assets/resume.pdf" download class="btn btn-ghost" id="heroResumeBtn"><i class='bx bx-download'></i> Download CV</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.instagram.com/synthe.sys?igsh=Znp6ZWVtOHRxdGk3" target="_blank" rel="noopener" aria-label="Instagram" id="insta"><i class='bxl bx-instagram'></i></a>
+          <a href="https://www.linkedin.com/in/hemanath-a-s-8a9765374/" target="_blank" rel="noopener" aria-label="LinkedIn" id="linkedin"><i class='bxl bx-linkedin' ></i></a>
+          <a href="https://github.com/itz-hems" target="_blank" rel="noopener" aria-label="GitHub" id="github"><i class='bxl bx-github'></i></a>
+          <a href="mailto:hemanath714@gmail.com" aria-label="Email" id="email"><i class='bx bx-envelope'></i></a>
+          <a href="#" aria-label="Dribbble" id="dribble"><i class='bxl bx-dribbble'></i></a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo-ring">
+          <img id="profilePhoto" src="assets/me.jpg" alt="Portrait of Hemanath A.S">
+        </div>
+        <span class="badge-float"><i class='bx bxs-circle status-dot'></i> Open to work</span>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <p class="eyebrow">About</p>
+      <h2>A little about me</h2>
+      <div class="about-grid">
+        <div class="glass card about-bio">
+          <p>I'm an adaptable, detail-oriented developer who enjoys learning new stacks quickly and turning them into working products. My recent focus has been building <strong>PCM Navigator</strong>, a full academic management platform — that project pushed me across the frontend, backend and database all at once, which is exactly the kind of full-stack work I want to keep doing.</p>
+          <div class="facts">
+            <div class="fact"><i class='bx bxs-graduation'></i><div><span class="fact-label">Education</span><span class="fact-value">B.Sc, Pachaiyappa's College for Men, Kanchipuram</span></div></div>
+            <div class="fact"><i class='bx bx-map'></i><div><span class="fact-label">Based in</span><span class="fact-value">Kanchipuram, Tamil Nadu</span></div></div>
+            <div class="fact"><i class='bx bx-conversation'></i><div><span class="fact-label">Languages</span><span class="fact-value">Tamil (Native), English (Advanced)</span></div></div>
+          </div>
+        </div>
+        <div class="glass card about-side">
+          <p class="fact-label">Outside of code</p>
+          <div class="chip-row">
+            <span class="chip">Reading</span>
+            <span class="chip">Cooking</span>
+            <span class="chip">Travel</span>
+            <span class="chip">Gardening</span>
+            <span class="chip">Music</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-inner">
+      <p class="eyebrow">Skills</p>
+      <h2>What I work with</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <p class="skill-group-label accent-violet">frontend</p>
+          <div class="skill-chips">
+            <span class="chip chip-violet" id="lan"><i class='bxl bx-html5'></i>HTML</span>
+            <span class="chip chip-violet" id="lan"><i class='bxl bx-css3'></i>CSS</span>
+            <span class="chip chip-violet" id="lan"><i class='bxl bx-javascript'></i>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-group-label accent-teal">backend</p>
+          <div class="skill-chips">
+            <span class="chip chip-teal" id="lan"><i class='bxl bx-python'></i>Python</span>
+            <span class="chip chip-teal" id="lan"><i class='bxl bx-python'></i>Python 3</span>
+            <span class="chip chip-teal" id="lan"><i  class="devicon-cplusplus-plain"></i>C / C++</span>
+            <span class="chip chip-teal" id="lan"><i class='bxl bx-django'></i>Django</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-group-label accent-neutral">tools</p>
+          <div class="skill-chips">
+            <span class="chip chip-neutral" id="lan"><i class='bxl bx-microsoft'></i>Microsoft Office</span>
+            <span class="chip chip-neutral" id="lan"><i class='bx bx-envelope'></i>Gmail</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-inner">
+      <p class="eyebrow">Projects</p>
+      <h2>Things I've built</h2>
+
+      <div class="project-featured glass card">
+        <div class="project-featured-text">
+          <p class="fact-label">Featured project</p>
+          <h3>PCM Navigator</h3>
+          <p>A comprehensive academic management platform for students, faculty, staff and parents — I designed the framework and database schema and implemented the attendance module.</p>
+          <ul class="project-list">
+            <li>Centralized course management, attendance tracking, grade monitoring and staff scheduling</li>
+            <li>Academic performance tracking, communication and event coordination in one place</li>
+            <li>Real-time updates and notifications across roles</li>
+          </ul>
+          <div class="chip-row">
+            <span class="chip chip-teal" id="lan"><i class='bxl bx-python'></i>Python</span>
+            <span class="chip chip-teal" id="lan"><i class="bxl bx-django"></i>Django</span>
+            <span class="chip chip-violet" id="lan"><i class="bxl bx-javascript"></i> JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- 1st project -->
+        <a class="project-card glass" href="https://itz-hems.github.io/Ac-service/" target="_blank" rel="noopener">
+          <div class="project-thumb" style="background-image:url('assets/ac.png')"></div>
+          <div class="project-card-body">
+            <h4>AC Service</h4>
+            <p>Service booking website. <span class="link-hint">Visit live site <i class='bx bx-link-external'></i></span></p>
+          </div>
+        </a>
+        <!-- 2nd project -->
+         <a class="project-card glass" href="#" target="_blank" rel="noopener">
+        
+          <div class="project-thumb" style="background-image:url('assets/halomart.jpeg')"></div>
+          <div class="project-card-body">
+            <h4>Halomart</h4>
+            <p>An User-friendly online shopping website.</p>
+          </div>
+        
+        </a>
+        <!-- 3rd project -->
+         <a class="project-card glass" href="#" target="_blank" rel="noopener">
+        
+          <div class="project-thumb" style="background-image:url('assets/aniva_logo.png'); background-color:black;"></div>
+          <div class="project-card-body">
+            <h4>Aniva</h4>
+            <p>An Anime streaming platform.</p>
+          </div>
+        
+        </a>
+        <!-- 4th project -->
+         <a class="project-card glass" href="#" target="_blank" rel="noopener">
+         
+          <div class="project-thumb" style="background-image:url('assets/PiHub.png');background-color: black;"></div>
+          <div class="project-card-body">
+            <h4>PiHub</h4>
+            <p>An User-friendly Project Building website.</p>
+          </div>
+        
+        </a>
+        <!-- 5th project -->
+         <a class="project-card glass" href="#" target="_blank" rel="noopener">
+         
+          <div class="project-thumb" style="background-image:url('assets/Perktalks.png')"></div>
+          <div class="project-card-body">
+            <h4>Perktalks</h4>
+            <p>Connect&nbsp;||&nbsp;Share&nbsp;||&nbsp;Grow together</p>
+          </div>
+        
+        </a>
+        <!-- 6th project -->
+         <a class="project-card glass" href="#" target="_blank" rel="noopener">
+         
+          <div class="project-thumb" style="background-image:url('assets/mint.png')"></div>
+          <div class="project-card-body">
+            <h4>Mint</h4>
+            <p>An Social Media website.</p>
+          </div>
+        
+        </a>
+        <!-- 7th project -->
+         <a class="project-card glass" href="#" target="_blank" rel="noopener">
+          
+          <div class="project-thumb" style="background-image:url('assets/talksy.png');background-color: rgba(1, 0, 24, 0.493);"></div>
+          <div class="project-card-body">
+            <h4>Talksy</h4>
+            <p>A collaborative tool similar to trello or Asana.</p>
+          </div>
+        
+        </a>
+        <!-- 8th project -->
+         <a class="project-card glass" href="#" target="_blank" rel="noopener">
+          
+          <div class="project-thumb" style="background-image:url('assets/collabio.png');background-color: black;"></div>
+          <div class="project-card-body">
+            <h4>Collabio</h4>
+            <p>A Video conferencing + collaboration tool.</p>
+          </div>
+        
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="section-inner">
+      <p class="eyebrow">Certifications</p>
+      <h2>Certifications</h2>
+      <div class="cert-grid" id="certGrid">
+        <div class="cert-card glass" data-default-cert="true">
+          <img src="assets/certificates/2.jpg" alt="Cadpoint certificate thumbnail" class="cert-thumb">
+          <div class="cert-body">
+            <h4>Certificate Course in Computer Programming</h4>
+            <p class="fact-value">Cadpoint Authorized Training Centre, Kanchipuram</p>
+            <p class="cert-meta">TurboC · C++ · Python 3.8 &nbsp;•&nbsp; Jan 2024</p>
+            <a class="btn btn-ghost btn-sm" href="assets/certificates/cad.pdf" target="_blank" rel="noopener">View certificate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's talk</h2>
+      <div class="contact-grid">
+        <div class="glass card contact-info">
+          <a class="contact-row" href="mailto:hemanath714@gmail.com"><i class='bx bx-envelope'></i> hemanath714@gmail.com</a>
+          <a class="contact-row" href="tel:+918610977050"><i class='bx bx-phone'></i> +91 86109 77050</a>
+          <span class="contact-row"><i class='bx bx-location-alt-2'></i> Kanchipuram, Tamil Nadu</span>
+        </div>
+        <form class="glass card contact-form" id="contactForm">
+          <div class="field"><label for="cname">Name</label><input id="cname" required placeholder="Your name"></div>
+          <div class="field"><label for="cemail">Email</label><input id="cemail" type="email" required placeholder="you@email.com"></div>
+          <div class="field"><label for="cmsg">Message</label><textarea id="cmsg" rows="4" required placeholder="What are you looking to build?"></textarea></div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="section-inner footer-inner socials">
+    <a href="https://www.instagram.com/synthe.sys?igsh=Znp6ZWVtOHRxdGk3" target="_blank" rel="noopener" aria-label="Instagram" id="insta"><i class='bxl bx-instagram'></i></a>
+    <a href="https://www.linkedin.com/in/hemanath-a-s-8a9765374/" target="_blank" rel="noopener" aria-label="LinkedIn" id="linkedin"><i class='bxl bx-linkedin' ></i></a>
+    <p>© 2026 Hemanath A.S — built with HTML, CSS &amp; a lot of debugging.</p>
+    <a href="https://github.com/itz-hems" target="_blank" rel="noopener" aria-label="GitHub" id="github"><i class='bxl bx-github'  ></i></a>
+      <a href="mailto:hemanath714@gmail.com" aria-label="Email" id="email"><i class='bx bx-envelope'></i></a>
+    
+  </div>
+
+</footer>
+
+<!-- EDIT MODE
+<button id="editOpenBtn" class="edit-fab" aria-label="Edit content" title="Edit content"><i class='bx bx-cog'></i></button>
+
+<div id="editPanel" class="edit-panel" aria-hidden="true">
+  <div class="edit-panel-head">
+    <h3>Edit content</h3>
+    <button id="editCloseBtn" aria-label="Close"><i class='bx bx-x'></i></button>
+  </div>
+
+  <p class="edit-note">
+    <i class='bx bx-info-circle'></i>
+    Changes here save to <strong>this browser only</strong> (no server involved), so they're handy for previewing on your own laptop. Visitors on other devices will still see the default files below — to update the live site for everyone, replace the matching file inside <code>/assets</code> and redeploy.
+  </p>
+
+  <div class="edit-block">
+    <label>Profile photo</label>
+    <input type="file" id="uploadPhoto" accept="image/*">
+    <img id="photoPreview" class="edit-preview-photo" src="assets/me.jpg" alt="Preview">
+  </div>
+
+  <div class="edit-block">
+    <label>Resume / CV (PDF)</label>
+    <input type="file" id="uploadResume" accept="application/pdf">
+    <p class="edit-filename" id="resumeFilename">Current: resume.pdf</p>
+  </div>
+
+  <div class="edit-block">
+    <label>Add a certificate</label>
+    <input type="text" id="certTitle" placeholder="Certificate title">
+    <input type="text" id="certIssuer" placeholder="Issuer / institute">
+    <input type="file" id="uploadCert" accept="image/*,application/pdf">
+    <button id="addCertBtn" class="btn btn-ghost btn-sm">Add certificate</button>
+  </div>
+
+  <div class="edit-actions">
+    <button id="saveEditBtn" class="btn btn-primary">Save changes</button>
+    <button id="resetEditBtn" class="btn btn-ghost">Reset to defaults</button>
+  </div>
+  <p class="edit-status" id="editStatus"></p>
+</div>
+<div id="editOverlay" class="edit-overlay"></div> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+</body>
+</html>
